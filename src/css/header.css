@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    padding: 5px 20px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #8f8f8f44;
+    z-index: 99;
+    box-shadow: 0px 0px 0px #ccc;
+}
+
+.header_search{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 0px 10px;
+    height: 40px;
+    margin-left: 20px;
+    align-content: space-around;
+}
+
+.header_search input{
+    border: 0;
+    outline: 0;
+    margin-left: -20px;
+    background-color: transparent;
+    min-width: 200px;
+    margin-left: 20px;
+    padding: 0px;
+}
+.header_option{
+    padding:5px 40px;
+    cursor: pointer;
+}
+.header_option:hover{
+    border-radius: 20px;
+    background-color: whitesmoke;   
+}
+.header_option svg{
+    color: gray;   
+}
+.header_option svg:hover{
+    color: #2381fa;   
+}
+.header_option_active{
+    position: relative;
+}
+.header_option_active svg{
+    color: #0381fa;
+}
+.header_option_active:after{
+    content: '';
+    position: absolute;
+    height: 3px;
+    left: 0px;
+    right: 0px;
+    bottom: -5px;
+    background-color: #0381fa;
+}
+.header_left{
+    display: flex;
+    align-items: center;
+}
+.header_middle{
+    display: flex;
+    align-items: center;
+}
+.header_right{
+    display: flex;
+    align-items: center;
+}
+.header_info{
+    display: flex;
+    align-items: center;
+}
+.MyName{
+    margin-right: 20px;
+}
+.header_info .MuiAvatar-root{
+    width: 30px;
+    height: 30px;
+}
+.header_right .MuiButtonBase-root{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    background-color: whitesmoke;
+    color: black;
+}
+

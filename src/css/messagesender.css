@@ -1,0 +1,112 @@
+.messagesender{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 4px 2px 10px #ccc;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.messagesender-top{
+    display: flex;
+    align-items: center;
+    float: 1;
+}
+
+.messagesender-top form{
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    flex: 1;
+}
+.messagesender-top form input{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+.messagesender-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+}
+.messagesender-options{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.messagesender-options:hover{
+    background-color: whitesmoke;
+}
+.messagesender-options p{
+    margin-left: 10px;
+}
+
+.modal-pop{
+    margin-left: 30%;
+    top: 50%;
+    background-color: white;
+    width: 500px;
+    margin: opx auto;
+    position: relative;
+    transform: translatey(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+}
+.modalHeading .MuiIconButton-root{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+.modalHeader-top{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+.modalHeader-top h5{
+    margin-left: 10px;
+}
+.modalBody textarea{
+    width: 100%;
+    border: none;
+    min-height: 100px;
+    font-size: 25px;
+    padding-top: 10px 0px;
+    letter-spacing: 1px;
+    outline: 0;
+    font-family: sans-serif;
+}
+.modalFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.post-submit{
+    background-color:#2391fa;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+}
